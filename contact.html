@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="left">
+    <div class="row">
+    <label for="name" class="form-label">Imie</label>
+    <input type="text" class="form-control" placeholder="Podaj imie" aria-label="First name" id="name">
+    </div>
+    <div class="row">
+        <label for="surname" class="form-label">Nazwisko</label>
+        <input type="text" class="form-control" placeholder="Podaj nazwisko" aria-label="Last name" id="surname">
+    </div>
+    <div class="row">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" placeholder="Podaj e-mail" aria-label="E-mail" id="email">
+    </div>
+    <div class="row">
+        <label>Płeć</label>
+        <div class="col">
+            <label>
+                <input type="radio" name="gender" value="man">
+                Mężczyzna
+            </label>
+        </div>
+        <div class="col">
+            <label>
+                <input type="radio" name="gender" value="woman" checked>
+                Kobieta
+            </label>
+        </div>
+    </div>
+    <div class="row">
+        <label for="customTextArea1" class="form-label">Opis</label>
+        <textarea rows="4" cols="50" id="customTextArea1"></textarea>
+    </div>
+    <div class="row">
+    <label for="customRange1" class="form-label">Wiek</label>
+    <input type="range" class="form-range" id="customRange1">
+    </div>
+    <div class="row">
+        <label for="customSelect1" class="form-label">Stan cywilny</label>
+        <select id="customSelect1">
+        <option value="value1">Panna/Kawaler</option>
+        <option value="value2">Zamężna/Żonaty</option>
+        <option value="value3">Wolę nie podawać</option>
+    </select>
+    </div>
+    <div class="row">
+        <div class="col">
+            <button>Wyczyść</button>
+        </div>
+        <div class="col">
+            <button>Wyślij</button>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

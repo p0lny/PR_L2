@@ -1,3 +1,13 @@
 body {
     background-color: lightgreen;
 }
+.left{
+    float: left;
+    width: 25%;
+}
+.row{
+    padding: 10px;
+}
+.col{
+    padding: 10px;
+}
