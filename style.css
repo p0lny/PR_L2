@@ -1,9 +1,14 @@
 body {
     background-color: lightgreen;
 }
-.left{
+.contactForm{
     float: left;
     width: 25%;
+    padding: 10px;
+}
+.img {
+    width: 300px;
+    height: auto;
 }
 .row{
     padding: 10px;
